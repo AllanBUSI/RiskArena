@@ -136,7 +136,7 @@ const chartConfig = {
   },
   mobile: {
     label: "Mobile",
-    color: "var(--primary)",
+    color: "var(--accent)",
   },
 } satisfies ChartConfig
 
@@ -211,7 +211,9 @@ export function ChartAreaInteractive() {
       <CardContent className="px-2 pt-4 sm:px-6 sm:pt-6">
         <ChartContainer
           config={chartConfig}
-          className="aspect-auto h-[250px] w-full"
+          className="aspect-auto h-[250px] min-h-[180px] w-full"
+          role="region"
+          aria-label="Interactive area chart"
         >
           <AreaChart data={filteredData}>
             <defs>
@@ -260,7 +262,7 @@ export function ChartAreaInteractive() {
               defaultIndex={isMobile ? -1 : 10}
               content={
                 <ChartTooltipContent
-                  labelFormatter={(value) => {
+                  labelFormatter={(value: any) => {
                     return new Date(value).toLocaleDateString("en-US", {
                       month: "short",
                       day: "numeric",
