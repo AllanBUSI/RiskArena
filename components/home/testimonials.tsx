@@ -3,27 +3,27 @@ import { useEffect, useRef } from "react";
 
 const testimonials = [
   {
-    name: "Lucas M.",
+    name: "Ruben Taeib",
     role: "Fan de football",
-    img: "/placeholder1.jpg",
+    img: "/personnage/ruben.jpeg",
     text: "RiskArena m’a permis de soutenir mes sportifs préférés et d’accéder à des contenus vraiment exclusifs. La communauté est incroyable !"
   },
   {
-    name: "Sophie R.",
-    role: "Athlète - Natation",
-    img: "/placeholder2.jpg",
+    name: "Blaise Matuidi",
+    role: "Athlète - Football",
+    img: "/personnage/blaise.jpeg",
     text: "Grâce à la plateforme, je partage mes coulisses et reçois un vrai soutien de mes fans. Les interactions sont motivantes et bienveillantes."
   },
   {
-    name: "Karim D.",
+    name: "Nouh Benzidane",
     role: "Fan multisport",
-    img: "/placeholder3.jpg",
+    img: "/personnage/nouh.jpeg",
     text: "J’adore le système de récompenses et la transparence. On se sent vraiment impliqué dans la carrière des athlètes."
   },
   {
-    name: "Emma T.",
-    role: "Athlète - Tennis",
-    img: "/placeholder4.jpg",
+    name: "Yasmine Oummaou",
+    role: "Athlète - Tenis",
+    img: "/personnage/yasmine.jpeg",
     text: "La DAO et les votes communautaires m’ont permis de créer du contenu qui plaît vraiment à mes abonnés. Super expérience !"
   }
 ];
