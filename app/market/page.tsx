@@ -130,7 +130,7 @@ export default function MarketPage() {
   };
 
   return (
-    <div className="flex h-screen bg-gray-50">
+    <div className="bg-gradient-to-br from-blue-50 via-white to-blue-100">
       {/* Sidebar */}
       <AppSidebar />
       
